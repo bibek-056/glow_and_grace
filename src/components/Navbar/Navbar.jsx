@@ -10,11 +10,11 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">Glow & Grace</Link>
+        <Link to="/glow_and_grace">Glow & Grace</Link>
       </div>
       <ul className="navbar-links">
         <li>
-          <Link to="/">Shop</Link>
+          <Link to="/glow_and_grace">Shop</Link>
         </li>
         <li>
           <Link to="/blog">Blog</Link>
