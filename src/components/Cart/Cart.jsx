@@ -37,7 +37,7 @@ export default function Cart() {
           {cartItems.map((item) => (
             <tr key={item.id}>
               <td>{item.name}</td>
-              <td>${item.price.toFixed(2)}</td>
+              <td>Nrs {item.price.toFixed(2)}</td>
               <td>
                 <input
                   type="number"
@@ -48,7 +48,7 @@ export default function Cart() {
                   }
                 />
               </td>
-              <td>${(item.price * item.quantity).toFixed(2)}</td>
+              <td>Nrs {(item.price * item.quantity).toFixed(2)}</td>
               <td>
                 <button onClick={() => removeFromCart(item.id)}>X</button>
               </td>
@@ -57,7 +57,7 @@ export default function Cart() {
         </tbody>
       </table>
       <div className="cart-footer">
-        <h3>Total: ${total.toFixed(2)}</h3>
+        <h3>Total: Nrs {total.toFixed(2)}</h3>
         <button onClick={() => navigate("/checkout")} className="checkout-btn">
           Proceed to Checkout
         </button>

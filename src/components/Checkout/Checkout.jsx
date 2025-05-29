@@ -88,7 +88,7 @@ export default function Checkout() {
           </select>
         </label>
         <div className="checkout-total">
-          <strong>Total: </strong>${total.toFixed(2)}
+          <strong>Total: </strong>Nrs {total.toFixed(2)}
         </div>
         <button type="submit" className="place-order-btn">
           Place Order
