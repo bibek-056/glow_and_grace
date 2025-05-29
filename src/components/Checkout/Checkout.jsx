@@ -30,7 +30,7 @@ export default function Checkout() {
       )} has been placed.`
     );
     clearCart();
-    navigate("/");
+    navigate("/glow_and_grace");
   };
 
   if (cartItems.length === 0) {

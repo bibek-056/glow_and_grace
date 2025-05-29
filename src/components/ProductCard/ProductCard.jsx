@@ -19,7 +19,7 @@ export default function ProductCard({ product }) {
       <div className="product-info">
         <h3>{product.name}</h3>
         <p className="product-desc">{product.description}</p>
-        <p className="product-price">${product.price.toFixed(2)}</p>
+        <p className="product-price">NRS {product.price.toFixed(2)}</p>
         <button className="add-btn" onClick={() => addToCart(product)}>
           Add to Cart
         </button>

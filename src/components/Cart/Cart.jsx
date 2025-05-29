@@ -16,7 +16,7 @@ export default function Cart() {
     return (
       <div className="cart-empty">
         <h2>Your cart is empty.</h2>
-        <Link to="/">Start Shopping</Link>
+        <Link to="/glow_and_grace">Start Shopping</Link>
       </div>
     );
 
